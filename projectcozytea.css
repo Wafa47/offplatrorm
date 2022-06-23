@@ -1,0 +1,114 @@
+
+    body{
+        font-family: Helvetica;
+        font-size: 22px;
+        color: seashell;
+        background-color: black;
+       
+    } 
+
+
+#logo{
+display: flex;
+justify-content: flex-start;
+height: 50px;
+margin-left: 10px;
+}
+
+nav{
+height: 69px;
+border-bottom: 1px solid seashell;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.headerlinks{
+    display: inline-flex;
+    justify-content: flex-end;
+}
+
+a{
+    margin: 15px;
+    text-decoration: underline;
+    color: seashell;
+}
+
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.first{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+    height: 700px;
+    background: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*1p2q9ou*_ga*MTg4MjU4NjYyMy4xNjQyOTQ4ODI5*_ga_3LRZM6TM9L*MTY1NTg3ODIzMy42NC4xLjE2NTU4NzgyMzkuNTQ.');
+}
+
+.heading{
+background-color: black;
+width: 1200px;
+opacity: 0.9;
+}
+
+.featuredtea{
+    height: 700px;
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.mediatea{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.item{
+ padding: 5px;
+}
+.item img{
+    display:block;
+    margin: 10px;
+    height: 200px;
+}
+
+.item span{
+    display: block;
+    text-align: center;
+    padding: 5px;
+}
+
+#locations{
+    text-align: center;
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*1ucevfw*_ga*MTg4MjU4NjYyMy4xNjQyOTQ4ODI5*_ga_3LRZM6TM9L*MTY1NTk5MTI2OC42OC4xLjE2NTU5OTEyOTEuMzc.);
+    height: 500px;
+    padding-top: 70px;
+}
+
+.locatioblock{
+    display: inline-block;
+    background-color: black;
+    width: 300px;
+    height: 250px;
+    margin: 15px 40px;
+    text-align: center;
+}
+
+#contact{
+    text-align: center;
+    height: 200px;
+}
+
+footer{
+    text-align: left;
+    margin: 20px;
+ 
+}
